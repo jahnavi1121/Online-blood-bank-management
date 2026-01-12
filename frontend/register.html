@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donor Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Donor Registration</h2>
+
+<form onsubmit="registerDonor(); return false;">
+    <input type="text" placeholder="Name" required>
+    <input type="number" placeholder="Age" required>
+
+    <select required>
+        <option value="">Blood Group</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>O+</option>
+        <option>O-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+    </select>
+
+    <input type="text" placeholder="Contact Number" required>
+    <input type="text" placeholder="Location" required>
+
+    <button type="submit">Register</button>
+</form>
+
+<a href="index.html">Back to Home</a>
+
+<script src="script.js"></script>
+</body>
+</html>
